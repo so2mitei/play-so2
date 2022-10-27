@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/add-to-project@v0.3.0
         with:
-          project-url: https://github.com/users/so2mitei/projects/4
+          project-url: https://github.com/users/so2mitei/projects/2
           github-token: ${{ secrets.PAT_FOR_AUTOSETTING_PJT_TO_NEW_ISSUES }}
           labeled: bug, needs-triage
           label-operator: NOT
